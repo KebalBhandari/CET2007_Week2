@@ -1,5 +1,6 @@
 ﻿public interface IEnemy
 {
+    // Interface members are public by default, so we don't need to specify the access modifier.
     void Attack();
     void Defend();
 }
